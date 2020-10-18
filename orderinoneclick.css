@@ -1,0 +1,158 @@
+#ooc_window {
+	position: fixed;
+	width: 600px;
+	/*height: 315px;*/
+	left: 50%;
+	top: 50%;
+	margin-left: -300px;
+	margin-top: -175px;
+	background-color: rgb(255, 255, 255);
+	border: 1px solid rgb(221, 221, 221);
+	z-index: -1;
+	opacity: 0;
+	padding:20px;
+	overflow:hidden;
+}
+
+#ooc_wait {
+    position: fixed;
+    width: 600px;
+    height: 315px;
+    left: 50%;
+    top: 50%;
+    margin-left: -300px;
+    margin-top: -175px;
+    background-color: white;
+    background-image: url("");
+    background-position-x: 284px;
+    background-position-y: 153px;
+    background-repeat: no-repeat;
+    border: none;
+    z-index: -1;
+    opacity: 0;
+}
+
+#ooc_window a{
+	color: rgb(255, 110, 82);
+	text-decoration: underline;
+}
+
+#ooc_window table{
+	width: auto;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#ooc_window .title{
+	font-size: 16px;
+	text-align: center;
+	margin-top: 10px;
+	color: rgb(58, 58, 58);
+}
+
+#ooc_window .description{
+	width: 80%;
+	font-size: 14px;
+	text-align: center;
+	margin: 5px auto;
+	margin-bottom: 7px;
+}
+
+#ooc_window label{
+	width: 150px;
+	text-align: right;
+	margin-right: 10px;
+}
+
+#ooc_window .textinput{
+	height: 27px;
+	line-height: 30px;
+	padding: 0;
+	text-align: center;
+	width: 200px;
+	border: 1px solid #ddd;
+}
+
+#ooc_window .divtextinput{
+	margin-left:30px;
+	padding-top:3px;
+}
+
+#ooc_window .alarm{
+	background-color: rgb(255, 221, 221);;
+}
+
+#ooc_window .alarm_pore{
+	margin-top: 7px;
+	margin-left: 40px;
+	color: darkred;
+	font-size: 11px;
+	height:18px;
+}
+
+#ooc_window .buttons{
+	margin-top: 30px;
+	text-align: center;
+}
+
+#ooc_window .ooc_confirm_order{
+	position: absolute;
+	bottom: 30px;
+	left: 50%;
+	margin-left: -100px;
+	width: 200px;
+	text-align: center;
+}
+
+#ooc_overlay {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background-color: rgba(0, 0, 0, 0.15);
+	z-index: -2;
+	opacity: 0;
+}
+
+#ooc_button {
+	float:right;
+}
+
+#ooc_cancel {
+	cursor: pointer;
+}
+
+.ooc_notpermit_cancel {
+	position: absolute;
+	bottom: 20px;
+	width: 100%;
+	left: 0;
+	text-align: center;
+}
+
+#ooc_home {
+	cursor: pointer;
+	color: black;
+	text-align: center;
+	display:block;
+}
+
+#ooc_button .button {
+	margin-left:30px;
+}
+
+.ooc_note {
+	text-align: center;
+	margin-left: 30px;
+	font-size: 10px;
+}
+
+#ooc_window .notpermit{
+	text-align: center;
+	margin-top: 100px;
+	color: darkred;
+	font-size: 16px;
+	font-weight: bold;
+}
+
